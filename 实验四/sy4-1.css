@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: 宋体;
+	font-weight:bolder;
+	margin-top: 50px;
+	
+}
+#box{
+	width:600px;
+	height:590px;
+	background-color:#CDCDCD;
+	margin: 0 auto;
+	border: 2px solid #000000;
+	
+}
+#header{
+	background: #FE0000;
+	border: 2px solid #ffff00;
+	width:570px;
+	height: 165px;
+	margin: 15px 5px 15px 14px;
+	color: #FFFF00;
+}
+#logo{
+	background: #FFFF00;
+	border: 2px solid #000000;
+	width:170px;
+	height: 50px;
+	margin: 10px 10px 10px 20px;
+	color: #000000;
+	float: left;
+	}
+#banner{
+	background: #0000FE;
+	border: 2px solid #000000;
+	width:300px;
+	height: 50px;
+	margin: 10px 20px 10px 5px;
+	color: #FDFDFD;
+	float: right;
+ 
+}
+#menu{
+	background:#023401;
+	border: 2px solid #000000;
+	width:526px;
+	height: 50px;
+	margin: 5px 20px 10px 20px;
+	color: #FDFDFD;
+	float:left;
+	
+}
+#main{
+	background:#016701;
+	border: 2px solid #ffff00;
+	width:570px;
+	height: 275px;
+	margin: 15px 5px 15px 14px;
+	color:#FDFDFD;
+	
+}
+#sidebar{
+	background:#0000FE;
+	border: 2px solid #FDFDFD;
+	width:200px;
+	height: 220px;
+	margin: 15px 5px 15px 14px;
+	color:#FDFDFD;
+	float: left;
+	
+}
+#content{
+	background:#00CCFF;
+	border:2px solid #FDFDFD;
+	width:300px;
+	height: 220px;
+	margin: 15px 20px 15px 14px;
+	color:#FDFDFD;
+	float: right;
+}
+#footer{
+	background:#FE0000;
+	border: 2px solid #ffff00;
+	width:570px;
+	height: 50px;
+	margin: 30px 5px 15px 14px;
+	color:#FDFDFD;
+	clear:both;
+}
+
