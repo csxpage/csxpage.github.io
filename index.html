@@ -1,33 +1,474 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>csx的网站首页</title>
+
+ <title>首页</title>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+ <meta name="description" content="">
+ <meta name="keywords" content="">
+ <meta name="author" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/font-awesome.min.css">
+ <link rel="stylesheet" href="css/owl.carousel.css">
+ <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+ <!-- MAIN CSS -->
+ <link rel="stylesheet" href="css/templatemo-style.css">
+<style>
+        /* 外部容器居中 */
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        /* 实验列表样式 */
+        .experiments {
+            display: flex;
+            justify-content: space-between; /* 将实验并排显示 */
+            width: 70%; /* 或者适当调整宽度以符合您的需求 */
+            border: 0px solid #ccc; /* 可见容器边界 */
+            padding: 20px;
+        }
+
+        /* 实验项目样式 */
+        .experiment {
+            flex-basis: 18%; /* 调整每个实验项目的宽度 */
+            text-align: center;
+        }
+
+        /* 调整链接样式 */
+        .experiment a {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+
 </head>
-<h2><a name="top">实验列表</a></h2>
-	<h3>实验一</h3>
- <a href="实验一/sy1-1.html" target="_blank">1.1</a><br/>
- <a href="实验一/sy1-2.html">1.2</a><br/>
- <a href="实验一/sy1-3.html">1.3</a><br/>
- <a href="实验一/sy1-4.html">1.4</a><br/>
- <a href="实验一/sy1-5.html">1.5</a><br/>
- <a href="实验一/sy1-6.html">1.6</a><br/>
-<hr>
-<h3>实验二</h3>
-	<a href="实验二/sy2-1.html" target="_blank">2.1</a><br/>
- <a href="实验二/sy2-2.html">2.2</a><br/>
- <a href="实验二/2-3.html">2.3</a><br/>
- <a href="实验二/sy2-4.html">2.4</a><br/>
-<h3>实验三</h3>
-	<a href="实验三/sy3-1.html">3.1</a><br/>
-	<a href="实验三/sy3-2.html">3.2</a><br/>
-	<a href="实验三/sy3-3.html">3.3</a><br/>
-	<a href="实验三/sy3-4.html">3.4</a><br/>
-	<a href="实验三/sy3-5.html">3.5</a><br/>
-	<a href="实验三/sy3-6.html">3.6</a><br/>
-<h3>实验四</h3>
-	<a href="实验四/sy4-1.html">4.1</a><br/>
-	<a href="实验四/sy4-2.html">4.2</a><br/>
-<body>
+<body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+<audio  autoplay="autoplay">
+  <source src="徐梦圆 - CHINA-冬雪.ogg" type="audio/ogg" />
+  <source src="徐梦圆 - CHINA-冬雪.ogg" type="audio/mpeg" />
+</audio>
+ <!-- PRE LOADER -->
+ <section class="preloader">
+	  <div class="spinner">
+
+		   <span class="spinner-rotate"></span>
+		   
+	  </div>
+ </section>
+
+
+ <!-- MENU -->
+ <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+	  <div class="container">
+
+		   <div class="navbar-header">
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					 <span class="icon icon-bar"></span>
+					 <span class="icon icon-bar"></span>
+					 <span class="icon icon-bar"></span>
+				</button>
+
+				<!-- lOGO TEXT HERE -->
+				<a href="#" class="navbar-brand">Known</a>
+		   </div>
+
+		   <!-- MENU LINKS -->
+		   <div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-nav-first">
+					 <li><a href="#top" class="smoothScroll">随</a></li>
+					 <li><a href="#about" class="smoothScroll">便</a></li>
+					 <li><a href="#team" class="smoothScroll">看</a></li>
+					 <li><a href="#contact" class="smoothScroll">看</a></li>
+				</ul>
+
+				<ul class="nav navbar-nav navbar-right">
+					 <li><a href="#"><i class="fa fa-phone"></i> +15970476784</a></li>
+				</ul>
+		   </div>
+
+	  </div>
+ </section>
+
+
+ <!-- HOME -->
+ <section id="home">
+	  <div class="row">
+
+				<div class="owl-carousel owl-theme home-slider">
+					 <div class="item item-first">
+						  <div class="caption">
+							   <div class="container">
+									<div class="col-md-6 col-sm-12">
+									</div>
+							   </div>
+						  </div>
+					 </div>
+
+					 <div class="item item-second">
+						  <div class="caption">
+							   <div class="container">
+									<div class="col-md-6 col-sm-12">
+									</div>
+							   </div>
+						  </div>
+					 </div>
+
+					 <div class="item item-third">
+						  <div class="caption">
+							   <div class="container">
+									<div class="col-md-6 col-sm-12">
+									</div>
+							   </div>
+						  </div>
+					 </div>
+				</div>
+	  </div>
+ </section>
+
+
+ <!-- FEATURE -->
+ <section id="feature">
+	  <div class="container">
+		   <div class="row">
+
+				<div class="col-md-4 col-sm-4">
+					 <div class="feature-thumb">
+						  <h3>自我介绍</h3>
+						 <h4> ____________ </h4>
+						  <h4>华东交通大学经济管理学院</h4>
+						 <h4>____________  </h4>
+						 <h4>经济统计2021-1</h4>
+					 </div>
+				</div>
+
+				<div class="col-md-4 col-sm-4">
+					 <div class="feature-thumb">
+						  <span>1</span>
+						  <h3>爱好</h3>
+						  <p>听纯音乐（徐梦圆的China系列很喜欢）</p>
+						  <p>喜欢玩蛋仔派对（是真的很好玩）</p>
+					 </div>
+				</div>
+
+				<div class="col-md-4 col-sm-4">
+					 <div class="feature-thumb">
+						  <span>2</span>
+						  <h3>特长</h3>
+						  <p>乐器（葫芦丝）演奏</p>
+						  <p>做饭（我做的酸辣土豆丝可好吃）</p>
+					 </div>
+				</div>
+
+		   </div>
+	  </div>
+ </section>
+
+
+ <!-- ABOUT -->
+ <section id="about">
+	  <div class="container">
+		   <div class="row">
+
+				<div class="col-md-6 col-sm-12">
+					 <div class="about-info">
+						  <h2>对未来的期待</h2>
+
+						  <figure>
+							   <span><i class="fa fa-users"></i></span>
+							   <figcaption>
+									<h3>和好朋友一起旅游</h3>
+									<p>Travel everywhere with good friends. Sint ipsa voluptatibus</p>
+							   </figcaption>
+						  </figure>
+
+						  <figure>
+							   <span><i class="fa fa-certificate"></i></span>
+							   <figcaption>
+									<h3>学到更多技能</h3>
+									<p>Learn more powerful and practical skills. Sint ipsa voluptatibus.</p>
+							   </figcaption>
+						  </figure>
+
+						  <figure>
+							   <span><i class="fa fa-bar-chart-o"></i></span>
+							   <figcaption>
+									<h3>找到好工作赚大钱</h3>
+									<p>Get a good job and make a lot of money. Sint ipsa voluptatibus.</p>
+							   </figcaption>
+						  </figure>
+					 </div>
+				</div>
+
+				<div class="col-md-offset-1 col-md-4 col-sm-12">
+					 <div class="entry-form">
+					 <video align="center" width="300" src="images/视频.mp4" controls></video>  
+					 </div>
+				</div>
+
+		   </div>
+	  </div>
+ </section>
+	
+	<!-- FEATURE1 -->
+ <section id="feature1">
+	  <div class="container">
+		  
+		   <div class="row">
+<h1 align="center">实验列表</h1>
+<div class="container">
+    <div class="experiments">
+        <!-- 实验一 -->
+        <div class="experiment">
+            <h3>实验一</h3>
+            <a href="实验一/sy1-1.html">1.1</a><br>
+            <a href="实验一/sy1-2.html">1.2</a><br>
+            <a href="实验一/sy1-3.html">1.3</a><br>
+            <a href="实验一/sy1-4.html">1.4</a><br>
+            <a href="实验一/sy1-5.html">1.5</a><br>
+            <a href="实验一/sy1-6.html">1.6</a>
+        </div>
+
+        <!-- 实验二 -->
+        <div class="experiment">
+            <h3>实验二</h3>
+            <a href="实验二/sy2-1.html">2.1</a><br>
+            <a href="实验二/sy2-2.html">2.2</a><br>
+            <a href="实验二/2-3.html">2.3</a><br>
+            <a href="实验二/sy2-4.html">2.4</a>
+        </div>
+
+        <!-- 实验三 -->
+        <div class="experiment">
+            <h3>实验三</h3>
+            <a href="实验三/sy3-1.html">3.1</a><br>
+            <a href="实验三/sy3-2.html">3.2</a><br>
+            <a href="实验三/sy3-3.html">3.3</a><br>
+            <a href="实验三/sy3-4.html">3.4</a><br>
+            <a href="实验三/sy3-5.html">3.5</a><br>
+            <a href="实验三/sy3-6.html">3.6</a>
+        </div>
+
+        <!-- 实验四 -->
+        <div class="experiment">
+            <h3>实验四</h3>
+            <a href="实验四/sy4-1.html">4.1</a><br>
+            <a href="实验四/sy4-2.html">4.2</a>
+        </div>
+
+        <!-- 实验五 -->
+        <div class="experiment">
+            <h3>实验五</h3>
+            <a href="实验五/sy5.html">5.1</a>
+        </div>
+    </div>
+</div>
+		   </div>
+	  </div>
+ </section>
+
+
+
+
+ <!-- TEAM -->
+ <section id="team">
+	  <div class="container">
+		   <div class="row">
+
+				<div class="col-md-12 col-sm-12">
+					 <div class="section-title">
+						  <h2>四胎介绍 <small>没有什么特别喜欢的明星，就分享一下我最爱的孩子吧</small></h2>
+					 </div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					 <div class="team-thumb">
+						  <div class="team-image">
+							   <img src="images/苏苏.jpg" class="img-responsive" alt="">
+						  </div>
+						  <div class="team-info">
+							   <h3>苏苏</h3>
+							   <span>是我的第一胎，大胖小子二斤六两；苏苏是他的小名，大名还没想好</span>
+						  </div>
+						  <ul class="social-icon">
+							   <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+							   <li><a href="#" class="fa fa-twitter"></a></li>
+							   <li><a href="#" class="fa fa-instagram"></a></li>
+						  </ul>
+					 </div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					 <div class="team-thumb">
+						  <div class="team-image">
+							   <img src="images/小礼.jpg" class="img-responsive" alt="">
+						  </div>
+						  <div class="team-info">
+							   <h3>小礼</h3>
+							   <span>我的第二胎，同一个产房出生的，孩子稍微瘦点，只有二斤四两</span>
+						  </div>
+						  <ul class="social-icon">
+							   <li><a href="#" class="fa fa-google"></a></li>
+							   <li><a href="#" class="fa fa-instagram"></a></li>
+						  </ul>
+					 </div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					 <div class="team-thumb">
+						  <div class="team-image">
+							   <img src="images/坏坏.jpg" class="img-responsive" alt="">
+						  </div>
+						  <div class="team-info">
+							   <h3>坏坏</h3>
+							   <span>生多了有经验了，第三胎的时候注重营养，孩子出生时足足四斤，长得可结实了哈哈</span>
+						  </div>
+						  <ul class="social-icon">
+							   <li><a href="#" class="fa fa-twitter"></a></li>
+							   <li><a href="#" class="fa fa-envelope-o"></a></li>
+							   <li><a href="#" class="fa fa-linkedin"></a></li>
+						  </ul>
+					 </div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					 <div class="team-thumb">
+						  <div class="team-image">
+							   <img src="images/趴趴.jpg" class="img-responsive" alt="">
+						  </div>
+						  <div class="team-info"><br/>
+							   <h3>趴趴</h3>
+							  <span>这是我的第四个孩子，还在怀，但是照了彩超，发现孩子特喜欢趴着睡，所以给孩子先取个小名趴趴吧！</span><br/>
+							   <span>（生完这个孩子以后再也不生了，孩子太多了照顾不过来了呀）</span>
+						  </div>
+						  <ul class="social-icon">
+							   <li><a href="#" class="fa fa-twitter"></a></li>
+							   <li><a href="#" class="fa fa-google"></a></li>
+							   <li><a href="#" class="fa fa-behance"></a></li>
+						  </ul>
+					 </div>
+				</div>
+
+		   </div>
+	  </div>
+ </section>
+
+
+
+ <!-- CONTACT -->
+ <section id="contact">
+	  <div class="container">
+		   <div class="row">
+
+				<div class="col-md-6 col-sm-12">
+					 <form id="contact-form" role="form" action="" method="post">
+						  <div class="section-title">
+							   <h2>联系方式 <small>we love conversations. let us talk!</small></h2>
+						  </div>
+
+						  <div class="col-md-12 col-sm-12">
+							   <input type="text" class="form-control" placeholder="陈施兴" name="name" required="">
+				
+							   <input type="email" class="form-control" placeholder="2228613731@qq.com" name="email" required="">
+
+							   <img src="images/表情包.gif" alt="">
+						  </div>
+
+						  <div class="col-md-4 col-sm-12">
+							
+						  </div>
+
+					 </form>
+				</div>
+
+				<div class="col-md-6 col-sm-12">
+					 <div class="contact-image">
+						  <img src="images/contact-image.jpg" class="img-responsive" alt="我是右一">
+						 <p align="center">右一本人</p>
+					 </div>
+				</div>
+
+		   </div>
+	  </div>
+ </section>       
+
+
+ <!-- FOOTER -->
+ <footer id="footer">
+	  <div class="container">
+		   <div class="row">
+
+				<div class="col-md-4 col-sm-6">
+					 <div class="footer-info">
+						  <div class="section-title">
+							   <h2></h2>
+						  </div>
+						  <address>
+							   <p>我没有国外软件联系方式，所以，<br>别点下面几个图标</p>
+						  </address>
+
+						  <ul class="social-icon">
+							   <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+							   <li><a href="#" class="fa fa-twitter"></a></li>
+							   <li><a href="#" class="fa fa-instagram"></a></li>
+						  </ul>
+
+						  <div class="copyright-text"> 
+							   
+						  </div>
+					 </div>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					 <div class="footer-info">
+						  <div class="section-title">
+							   <h2>联系方式</h2>
+						  </div>
+						  <address>
+							   <p>+86 15970476784</p>
+							   <p><a href="mailto:youremail.com">2228613731@qq.com</a></p>
+						  </address>
+
+						  <div class="footer_menu">
+							   <h2>Home</h2>
+							   <ul>
+									<li><a href="#">广东 东莞</a></li>
+									
+							   </ul>
+						  </div>
+					 </div>
+				</div>
+
+				<div class="col-md-4 col-sm-12">
+					 <div class="footer-info newsletter-form">
+						  <div class="section-title">
+							   <h2></h2>
+						  </div>
+						  <div>
+							   <div class="form-group">
+									<form action="#" method="get">
+										 <input type="email" class="form-control" placeholder="邮箱" name="email" id="email" required="">
+										
+									</form>
+							   </div>
+						  </div>
+					 </div>
+				</div>
+				
+		   </div>
+	  </div>
+ </footer>
+
+ <!-- SCRIPTS -->
+ <script src="js/jquery.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <script src="js/owl.carousel.min.js"></script>
+ <script src="js/smoothscroll.js"></script>
+ <script src="js/custom.js"></script>
+
 </body>
 </html>
